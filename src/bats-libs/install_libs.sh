@@ -1,5 +1,5 @@
 #!/bin/sh
-# From https://github.com/bats-core/bats-core/pull/674 
+# From https://github.com/bats-core/bats-core/pull/674
 # adjusted to work with posix sh (alpine busybox)
 
 set -o errexit
