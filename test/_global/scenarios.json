@@ -1,9 +1,0 @@
-{
-    "bats-libs": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-        "features": {
-            "bats-libs": {
-            }
-        }
-    }
-}
