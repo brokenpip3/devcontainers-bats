@@ -1,12 +1,8 @@
 {
-    "color_and_hello": {
+    "bats-libs": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
+            "bats-libs": {
             }
         }
     }
