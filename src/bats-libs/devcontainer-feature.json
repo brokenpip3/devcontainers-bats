@@ -1,0 +1,52 @@
+{
+    "id": "bats-libs",
+    "version": "0.0.1",
+    "name": "Bats libs: support, assert, detik and file",
+    "documentationURL": "https://github.com/brokenpip3/devcontainers-bats",
+    "description": "Devcontainers feature to install the bats libs: support, assert, detik, file. ",
+    "options": {
+        "support": {
+            "type": "string",
+            "proposals": [
+                "0.3.0",
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Select or enter the bats-support version to install"
+        },
+        "assert": {
+            "type": "string",
+            "proposals": [
+                "2.1.0",
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Select or enter the bats-assert version to install"
+        },
+        "detik": {
+            "type": "string",
+            "proposals": [
+                "1.2.0",
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Select or enter the bats-detik version to install"
+        },
+        "file": {
+            "type": "string",
+            "proposals": [
+                "0.3.0",
+                "latest",
+                "none"
+            ],
+            "default": "latest",
+            "description": "Select or enter the bats-file version to install"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
