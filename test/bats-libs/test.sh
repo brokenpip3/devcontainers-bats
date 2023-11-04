@@ -1,4 +1,4 @@
 #!/bin/bash
 source dev-container-features-test-lib
-check echo "OK" | grep 'OK'
+check "fake" echo "OK"
 reportResults
