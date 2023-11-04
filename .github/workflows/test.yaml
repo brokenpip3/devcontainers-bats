@@ -13,11 +13,11 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - bats-libs
         baseImage:
           - debian:latest
           - ubuntu:latest
+          - alpine:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
       - uses: actions/checkout@v3
@@ -34,8 +34,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - bats-libs
     steps:
       - uses: actions/checkout@v3
 
