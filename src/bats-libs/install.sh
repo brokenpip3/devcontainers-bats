@@ -39,7 +39,7 @@ else
 	apt-get update -y
 	if ! command -v wget > /dev/null 2>&1; then
 		_log WARN "wget is not present, installing"
-		apt-get -y install --no-install-recommends wget
+		apt-get -y install --no-install-recommends wget ca-certificates
 	fi
 	apt install -y bash
 fi
