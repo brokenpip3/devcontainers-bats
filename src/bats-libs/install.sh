@@ -29,6 +29,19 @@ loop() {
     done
 }
 
+setup_wget() {
+if ! type git > /dev/null 2>&1; then
+    _log WARN "wget is not present, installing"
+    export DEBIAN_FRONTEND=noninteractive
+    if [ "$(find /var/lib/apt/lists/* | wc -l)" = "0" ]; then
+        echo "Running apt-get update..."
+        apt-get update -y
+        apt-get -y install --no-install-recommends wget
+    fi
+fi
+}
+
 _log INFO "Devcontainer: Installing BATS libs from https://github.com/bats-core"
+setup_wget
 loop
 _log INFO "Done"
