@@ -1,6 +1,6 @@
 {
     "id": "bats-libs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "name": "Bats libs: support, assert, detik and file",
     "documentationURL": "https://github.com/brokenpip3/devcontainers-bats",
     "description": "Devcontainers feature to install the bats libs: support, assert, detik, file. ",
