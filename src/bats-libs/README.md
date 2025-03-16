@@ -1,7 +1,7 @@
 
 # Bats libs: support, assert, detik and file (bats-libs)
 
-Devcontainers feature to install the bats libs: support, assert, detik, file.
+Devcontainers feature to install the bats libs: support, assert, detik, file. 
 
 ## Example Usage
 
