@@ -8,7 +8,7 @@ _log() {
 # * bash array
 # * indirect expansion (https://www.shellcheck.net/wiki/SC3053)
 
-_LIBS="SUPPORT:0.3.0 ASSERT:2.1.0 DETIK:1.3.0 FILE:0.3.0"
+_LIBS="SUPPORT:0.3.0 ASSERT:2.1.0 DETIK:1.3.3 FILE:0.4.0"
 
 loop() {
     for lib in $_LIBS; do
